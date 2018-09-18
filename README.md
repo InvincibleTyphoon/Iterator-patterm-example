@@ -16,3 +16,5 @@ DiningMenu, PartTimeWorker are classes that manages DiningMenu and PartTimeWorke
 
 ![iteratarable](https://user-images.githubusercontent.com/25341053/45668443-b6e7e600-bb57-11e8-906e-6ecf7da9c68f.png)
 
+# Files
+IteratorPatternExampleClassDiagram.xml : class diagram file. You should use draw.io to edit it.
