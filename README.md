@@ -7,14 +7,15 @@ The example program illustrates restaurant where "dining menu" and "part time wo
 ToStringAble is a interface to provide toString() method.
 DiningMenu, PartTimeWorker classes implements the toString() method for their own ways.
 
-![tostringable](https://user-images.githubusercontent.com/25341053/45668461-c7985c00-bb57-11e8-9f77-5a5eecddb379.png)
+![tostringable](https://user-images.githubusercontent.com/25341053/45695522-90986980-bb9c-11e8-807e-df66d024c6d3.png)
 
 
 # Class diagram - Iteratorable part
 Iteratorable is  a interfalce to provide createIterator() method.
 DiningMenu, PartTimeWorker are classes that manages DiningMenu and PartTimeWorker classes with list, and implements the createIterator() method.
 
-![iteratarable](https://user-images.githubusercontent.com/25341053/45668443-b6e7e600-bb57-11e8-906e-6ecf7da9c68f.png)
+![iteratorable](https://user-images.githubusercontent.com/25341053/45695532-98f0a480-bb9c-11e8-9fcd-19017d74f519.png)
+
 
 # Files
 IteratorPatternExampleClassDiagram.xml : class diagram file. You should use draw.io to edit it.
