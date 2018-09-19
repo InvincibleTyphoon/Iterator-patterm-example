@@ -19,5 +19,3 @@ DiningMenu, PartTimeWorker are classes that manages DiningMenu and PartTimeWorke
 
 # Extra Files
 IteratorPatternExampleClassDiagram.xml : class diagram file. You should use draw.io to edit it.
-
-IteratorableExample.cpp - cpp file that main() function is included.
