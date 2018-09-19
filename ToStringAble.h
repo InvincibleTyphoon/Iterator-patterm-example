@@ -2,6 +2,7 @@
 #include <string>
 using namespace std;
 
+// interface for toString() method
 class ToStringAble
 {
 public:

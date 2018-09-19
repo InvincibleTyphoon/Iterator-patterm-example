@@ -7,6 +7,7 @@
 
 using namespace std;
 
+//part time workers at a restaurant
 class PartTimeWorker : public ToStringAble
 {
 public:

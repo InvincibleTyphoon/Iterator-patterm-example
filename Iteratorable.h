@@ -5,6 +5,7 @@
 
 using namespace std;
 
+// interface for iterator pattern
 class Iteratorable
 {
 public:
@@ -13,4 +14,3 @@ public:
 	virtual bool isLast() const = 0;
 	virtual const ToStringAble& currentItem() = 0;
 };
-

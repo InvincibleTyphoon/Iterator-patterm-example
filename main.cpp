@@ -9,6 +9,9 @@
 
 using namespace std;
 
+
+// use of Iterator pattern
+// the type of passed parameter is not important thanks to the pattern.
 void viewToStringableList(Iteratorable& iter)
 {
 	cout << iter.begin().toString();
@@ -21,6 +24,7 @@ int main(int argc, char* argv[])
 	DiningMenuList menuList;
 	PartTimeWorkerList partTimeWorkerList;
 
+	/**********************************create test datas***********************************/
 	string tempString = string("cheese burger");
 	menuList.addItem(DiningMenu(10,tempString));
 	tempString = string("hotDog");
@@ -36,7 +40,9 @@ int main(int argc, char* argv[])
 	tempFitstName = string("Bruth");
 	tempLastName = string("Wayne");
 	partTimeWorkerList.addItem(PartTimeWorker(tempFitstName, tempLastName, 38, male));
+	//////////////////////////////////////////////////////////////////////////////////////
 
+	// These two function calls are valid because DiningMenuList class and PartTimeWorkerList class generalize Iteratorable interface.
 	viewToStringableList(menuList);
 	viewToStringableList(partTimeWorkerList);
 

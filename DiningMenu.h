@@ -4,6 +4,7 @@
 
 using namespace std;
 
+// dining menu at a restaurant.
 class DiningMenu : public ToStringAble
 {
 public:
